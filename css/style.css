@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3 {
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+}
+
+h1,
+h2 {
+    margin-bottom: 20px;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+p {
+    color: hsl(201, 11%, 66%);
+    line-height: 25px;
+}
+
+/* ! ============ Header ============ ! */
+
+header {
+    background-image: url('../images/bg-header-desktop.png');
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+[alt="logo"] {
+    width: 90px;
+    margin: 150px 0 40px 0;
+}
+
+h1 {
+    font-size: 230%;
+}
+
+.header-introduce {
+    width: 550px;
+    margin-left: 225px;
+}
+
+.btn button {
+    margin-top: 50px;
+    color: white;
+    width: 170px;
+    height: 40px;
+    border-radius: 60px;
+    border: none;
+    transition: all .2s;
+}
+
+.iOS-btn {
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 0 3px 0 #20a089;
+    margin-right: 10px;
+}
+
+.iOS-btn:hover {
+    box-shadow: 0 2px 0 #20a089;
+}
+
+.Mac-btn {
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0 3px 0 #5161da;
+}
+
+.Mac-btn:hover {
+    box-shadow: 0 2px 0 #5161da;
+}
+
+button:hover {
+    opacity: .8;
+}
+
+/* ! ============ Section 1 ============ ! */
+
+.section1 {
+    height: 641px;
+}
+
+h2 {
+    margin-top: 120px;
+    font-size: 190%;
+}
+
+.section-introduce {
+    margin-left: 185px;
+    width: 618px;
+    text-align: center;
+}
+
+.app-features {
+    float: right;
+    margin-right: 84px;
+    margin-top: 130px;
+    margin-left: 6px;
+}
+
+.app-features div {
+    margin-bottom: 60px ;
+}
+
+.information {
+    width: 354px;
+}
+
+.app-features h3 {
+    margin-bottom: 10px;
+}
+
+.desktop-pc {
+    float: left;
+    margin-left: -58px;
+    width: 548px;
+    margin-top: 89px;
+}
+
+.desktop-mobile {
+    width: 355px;
+    margin-left: 0px;
+    display: none;
+}
+
+.devices-pc {
+    margin-top: 80px;
+}
+
+.devices-mobile {
+    width: 357px;
+    margin-top: 60px;
+    display: none;
+}
+
+/* ! ============ Section 2 ============ ! */
+
+.section2 {
+    margin-top: 50px;
+}
+
+/* ! ============ Section 3 (.app-tools) ============ ! */
+
+.app-tools {
+    text-align: center;
+}
+
+.app-tools .row {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.app-tools h3 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.app-tools h3 + p {
+    width: 327px;
+}
+
+[alt="Black lists"] {
+    margin-top: -8.55px;
+}
+
+.sponsors {
+    margin-top: 370px;
+    margin-left: 10px;
+}
+
+.sponsors img {
+    margin-left: 85px;
+}
+
+.sponsors-mobile {
+    display: none;
+}
+
+.sponsors-mobile img {
+    margin-bottom: 70px;
+}
+
+/* ! ============ Download section ============ ! */
+
+.download {
+    margin-top: 600px;
+    text-align: center;
+}
+
+/* ! ============ Footer ============ ! */
+
+footer {
+    background-color: #f5f6f8;
+    margin-top: 200px;
+    height:fit-content
+}
+
+footer [alt="logo"] {
+    width: 70px;
+    margin-left: 50px;
+    z-index: 10;
+}
+
+.contact,
+.user-rights,
+.guide,
+.icon {
+    float: right;
+}
+
+.contact,
+.user-rights,
+.guide {
+    margin-top: 135px;
+}
+
+footer div a {
+    color: hsl(210, 10%, 33%);
+    font-size: 18px;
+    display: block;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+footer a:hover {
+    color: hsl(171, 66%, 44%);
+}
+
+footer li {
+    list-style: none;
+}
+
+.icon {
+    margin-right: -750px;
+    margin-top: 180px;
+}
+
+.icon i {
+    margin-right: 20px;
+    color: hsl(210, 10%, 33%);
+    transition: color .3s ease;
+}
+
+.icon i:hover {
+    color: hsl(171, 66%, 44%);
+}
+
+.attribution {
+    text-align: center;
+}
+
+.attribution a,
+.attribution::before {
+    text-decoration: none;
+    color: hsl(210, 10%, 33%);
+    font-weight: bold;
+}
+
+.attribution::before {
+    content: "\00a9";
+    font-size: large;
+    margin-right: 5px;
+}
